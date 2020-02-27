@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <My_component name="Oskar">
+      <My_component>
 
       </My_component>
     </React.Fragment>

@@ -1,13 +1,15 @@
 import React from 'react';
+import NestedComponent from './My__component2';
 
-class Hello extends React.Component {
+class Firstcomponent extends React.Component {
    state = {
-      profileName: this.props.name
+      profileName: this.props.name,
+      profileLastName: this.props.lastname
    };
 
  render() {
-    return <h1>Hello, {this.state.profileName}!</h1>
+    return <NestedComponent name="Oskar" lastname="Morell"/>
  }
 }
 
-export default Hello
+export default Firstcomponent
